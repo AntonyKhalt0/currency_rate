@@ -2,7 +2,7 @@
 
 require 'open-uri'
 
-class ExchangeRatesParserService
+class ExchangeRatesParseService
   EXCHANGE_RATES_URL = 'https://www.tinkoff.ru/api/v1/currency_rates'.freeze
 
   def call

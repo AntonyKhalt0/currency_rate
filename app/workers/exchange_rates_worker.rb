@@ -3,7 +3,7 @@ class ExchangeRatesWorker
 
   def perform
     current_time = Time.current
-    parse_data = ExchangeRatesParserService.new.call.map do |rate|
+    parse_data = ExchangeRatesParseService.new.call.map do |rate|
       {
         from_name: rate.dig('fromCurrency', 'name'),
         from_code: rate.dig('fromCurrency', 'code'),

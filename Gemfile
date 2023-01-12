@@ -54,6 +54,7 @@ group :development, :test do
   gem 'dotenv-rails'
   gem 'factory_bot_rails'
   gem 'rspec-rails', '4.0.0.beta2'
+  gem 'rspec-sidekiq'
 end
 
 group :development do
