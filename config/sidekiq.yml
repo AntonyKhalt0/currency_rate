@@ -1,0 +1,3 @@
+:schedule:
+  ExchangeRatesWorker:
+    every: ["1h"]
