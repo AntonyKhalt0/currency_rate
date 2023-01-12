@@ -3,7 +3,7 @@
 require 'open-uri'
 
 class ExchangeRatesParseService
-  EXCHANGE_RATES_URL = 'https://www.tinkoff.ru/api/v1/currency_rates'.freeze
+  EXCHANGE_RATES_URL = 'https://www.tinkoff.ru/api/v1/currency_rates'
 
   def call
     exchange_rates.select do |rate|
